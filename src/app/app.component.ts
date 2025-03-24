@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  logoUrl: string = "https://www.bridgelabz.com/assets/images/BridgeLabz%20Logo.webp"; // Replace with actual URL
+  logoUrl: string = "assets/BL_logo_square_png.png"; // Path to the logo
+
+  launchBridgeLabz() {
+    window.open("https://www.bridgelabz.com", "_blank"); // Opens in a new tab
+  }
 }
